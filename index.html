@@ -2,154 +2,245 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tables</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashan.pk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <style>
+        .button .button-layer {
+            position: absolute;
+            height: 100%;
+            width: 300%;
+            left: -100%;
+            background-image: linear-gradient(135deg, #060034, #c6c9d7, #031a3a, #050950);
+            transition: all 0.4s ease;
+            border-radius: 10px;
+        }
+
+        .button:hover .button-layer {
+            left: 0;
+        }
+
+        .button button {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background: none;
+            border: none;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .button {
+            position: relative;
+            height: 40px;
+            width: 50%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
+
 <body>
-    <table width="100%" style="text-align: center">
-        <nav>
-            <thead>
-                <th><img width="150px" src="images\logo.svg" alt="logo"></th>
-                <th><a href="#">Home</a> </th>
-                <th><a href="#about">About</a></th>
-                <th><a href="#contact">Contact</a></th>
-            </thead>
-            </nav>
-            <tr>
-                <td colspan="4">
-                    <marquee behavior="" direction=""><img
-                            src="https://www.shutterstock.com/image-vector/sunscreen-product-banner-ads-on-260nw-1509241181.jpg"
-                            alt="Banner Image" width="100%" height="300px"></marquee>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" width="50%"><h1> About US:</h1></td>
-                <td colspan="2" width="50%"><i id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
-                        beatae culpa eaque aspernatur officia quam ex quia et commodi, ea earum labore eum voluptate.
-                        Reiciendis animi corrupti rerum blanditiis! Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Nulla eum dignissimos animi sed aliquid veniam. Quis nostrum nemo rerum autem dolorem,
-                        pariatur asperiores quaerat minus, necessitatibus, fugiat voluptatibus aperiam ullam? Lorem,
-                        ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis minima quia dolor laborum
-                        ullam voluptatibus dignissimos, non dolores. Voluptas ipsa recusandae eius sint error eveniet
-                        aliquid maxime harum in!</i><br>
-                        <bdo dir="rtl">ااپ مءجحع کاحا داسندنسکلدنسدنجاسدنجہدناسنداسندسد اسلداسکلدکلاسندکلاسن</bdo>
-                        <iframe width="640" height="360" src="https://www.youtube.com/embed/INiTYkzGxco" title="Exclusive with @AbdulMalikFareed  | Tuaha ibn Jalil, Abdul Malik Fareed &amp; Ali E." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <blockquote cite="">
-                            <b>Our Testimonials said:</b><br>
-                            <q>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab cum sed
-                                sunt quibusdam esse, praesentium necessitatibus libero? Tempora nostrum
-                                porro impedit optio. Consequuntur repudiandae rem facilis repellat
-                                earum. Distinctio, quasi?
-                            </q>
-                        </blockquote>
-                    </td>
-            </tr>
-            <tr>
-                <td rowspan="3" width="25%">sidebars</td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$150</del>
-                    <ins>$120</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-            </tr>
-            <tr>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$150</del>
-                    <ins>$120</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-            </tr>
-            <tr>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$150</del>
-                    <ins>$120</ins>
-                </td>
-                <td width="25%"><img src="images\bannerimage.jpg" alt="Product"><br><del>$100</del>
-                    <ins>$80</ins>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4">
-                    <h2 id="contact">Visit US</h2>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57929.54380029712!2d66.96057558059694!3d24.843469345725133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315fe31be0eb5%3A0x2cc076f60db218a6!2sBeach%20Luxury%20Hotel!5e0!3m2!1sen!2s!4v1677406909727!5m2!1sen!2s"
-                        width="75%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4" height="250px" style="background-color: #000000; border-radius: 10px; color: whitesmoke;">
-                    <footer>
-                        
-                            This portion of the site is for informational purposes only. The content is not legal advice. The statements and
-                            opinions are the expression of the author, not LegalZoom, and have not been evaluated by LegalZoom for accuracy,
-                            completeness, or changes in the law. <br>
-                            <details>
-                                <summary>All Rights Reserved....</summary>
-                            © Logo.com, Inc. All rights reserved @2023. <br>
-                            Contact Information: 03331523364
-                        </details>
-                    </footer>
-                </td>
-            </tr>
-        
-        
-    </table>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Rashan.pk Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shopnow">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <marquee behavior="slide" direction="left" scrollamount="25">
+        <h1 class="d-lg-inline me-md-5">Ramadan Deal is Here</h1><img src="images\ramadan deal.png" alt="Ramadan Deal">
 
-    <!-- From these tags Browser will know what is going on in Web 
-    em tag (emphasize) makes the word meaningful
-    -->
-    <!-- <em>Hello</em> -->
-    <!-- Browser will read this strongly -->
-    <!-- <strong>Hello</strong>
-    <del>$100</del>
-    <ins>$80</ins>
-    <br />
-    H<sub>2</sub>O
-    <br />
-    a<sup>2</sup> + 2ab + b<sup>2</sup> -->
-    <!-- This marquee tag slides a paragragh  -->
-    <!-- <marquee behavior="" direction="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia,
-        quo perferendis consequuntur ut blanditiis inventore voluptatem nemo odio
-        accusantium asperiores, aut minima quae laudantium, pariatur soluta hic
-        eius amet.</marquee>
-
-    
-
-    <address>
-        Lorem ipsum dolor sit amet consectetur ADdresss address elit. Architecto saepe
-    </address>
-
-    
-    <br>
-    <a href="https://www.google.com" target="_blank">Google</a>
-
-    <details>
-        <summary>Hello More....</summary>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia id, esse amet ab saepe veritatis porro
-        repellat obcaecati totam nobis quae laborum perferendis! Quae earum fugit soluta, error consequuntur atque.
-    </details>
-    <br>
-    <div>normal Container with no meaning</div>
-    <header>Contains Header section, Meaningful to header section</header>
-    <footer>Contains Footer section, Meaningful to Footer section</footer>
-    <aside>contains sidebars meaningful to sidebars</aside>
-    <nav>Meaningful to nav section</nav>
-    <section>Meaningful to sections containing headings(h1-h6) as a child</section> -->
+    </marquee>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Welcome to our Online Store</h1>
+            <p class="lead text-muted">Browse our collection of products and find great deals</p>
+            <p>
+                <a href="#shopnow" class="btn btn-primary my-2 w-25">Shop Now</a>
+            </p>
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="container">
+                <h1 class="text-center" id="shopnow">Product Catalog</h1>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\colgate pack.png" class="card-img-top" alt="Colgate Pack" height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">Colgate Pack</h5>
+                                <p class="card-text">Colgate pack with brushes and extra accessories with big Discount
+                                </p>
+                                <h6 class="card-subtitle mb-2 text-muted">899 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\eid gift perfume.webp" class="card-img-top" alt="Product Image"
+                                height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">Perfume Sprays deal</h5>
+                                <p class="card-text">Perfume Sprays deal which is perfect for eid gift to your loved
+                                    ones</p>
+                                <h6 class="card-subtitle mb-2 text-muted">2999 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\hair spray.webp" class="card-img-top" alt="Product Image" height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">Hair Spray body wash free</h5>
+                                <p class="card-text">Hair Spray body wash free perfect for dual use and with big
+                                    discount</p>
+                                <h6 class="card-subtitle mb-2 text-muted">1199 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="album me-4 bg-light">
+        <div class="container">
+            <div class="container">
+                <!-- <h1 class="text-center" id="shopnow">Product Catalog</h1> -->
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\high quality Tea.webp" class="card-img-top" alt="Tea Srilanka"
+                                height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">High Quality Tea</h5>
+                                <p class="card-text">It is a high quality tea from srilanka share with your loved ones
+                                </p>
+                                <h6 class="card-subtitle mb-2 text-muted">899 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\milk.png" class="card-img-top" alt="Milk" height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">Organic Milk</h5>
+                                <p class="card-text">It is a Organic Milk from Netherland best to use for kids adn
+                                    childrens</p>
+                                <h6 class="card-subtitle mb-2 text-muted">2999 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="images\rice.png" class="card-img-top" alt="Rice" height="450px">
+                            <div class="card-body">
+                                <h5 class="card-title">High quality Rice</h5>
+                                <p class="card-text">It is a high quality Rice extracted from the heart of Pakistan</p>
+                                <h6 class="card-subtitle mb-2 text-muted">1199 Rs</h6>
+                                <div class="button">
+                                    <div class="button-layer"></div>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light py-5">
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="nav-link">About Us</a></li>
+                        <li><a href="#" class="nav-link">Contact Us</a></li>
+                        <li><a href="#" class="nav-link">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-4">
+                    <h5>Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="nav-link">Product 1</a></li>
+                        <li><a href="#" class="nav-link">Product 2</a></li>
+                        <li><a href="#" class="nav-link">Product 3</a></li>
+                    </ul>
+                </div> -->
+                <div class="col-md-4">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="nav-link">FAQs</a></li>
+                        <li><a href="#" class="nav-link">Shipping</a></li>
+                        <li><a href="#" class="nav-link">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="nav-link"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" class="nav-link"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#" class="nav-link"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Rashan.pk. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta3/js/bootstrap.min.js"></script>
+
 
 </html>
